@@ -23,7 +23,7 @@ Thank you for your interest in contributing to the Komodo Periphery Home Assista
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/cgfm/hassio-addon-komodo-periphery.git
+   git clone https://github.com/cgfm/Komodo-Periphery-Addon.git
    cd hassio-addon-komodo-periphery
    ```
 

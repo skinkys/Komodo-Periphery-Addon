@@ -31,7 +31,7 @@ This Home Assistant Add-on provides the Komodo Periphery server, which allows yo
 1. Navigate in your Home Assistant frontend to **Settings** → **Add-ons** → **Add-on Store**.
 2. Click the 3-dots menu at upper right **...** → **Repositories** and add this repository URL:
    ```
-   https://github.com/cgfm/hassio-addon-komodo-periphery
+   https://github.com/cgfm/Komodo-Periphery-Addon
    ```
 3. Find the "Komodo Periphery" add-on and click it.
 4. Click on the "INSTALL" button.
@@ -199,11 +199,11 @@ SOFTWARE.
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [banner-image]: https://raw.githubusercontent.com/cgfm/Komodo-Periphery-Addon/refs/heads/main/images/banner.png
-[commits-shield]: https://img.shields.io/github/commit-activity/y/cgfm/hassio-addon-komodo-periphery.svg
-[commits]: https://github.com/cgfm/hassio-addon-komodo-periphery/commits/main
-[contributors]: https://github.com/cgfm/hassio-addon-komodo-periphery/graphs/contributors
+[commits-shield]: https://img.shields.io/github/commit-activity/y/cgfm/Komodo-Periphery-Addon.svg
+[commits]: https://github.com/cgfm/Komodo-Periphery-Addon/commits/main
+[contributors]: https://github.com/cgfm/Komodo-Periphery-Addon/graphs/contributors
 [author]: https://github.com/cgfm
-[issue]: https://github.com/cgfm/hassio-addon-komodo-periphery/issues
-[license-shield]: https://img.shields.io/github/license/cgfm/hassio-addon-komodo-periphery.svg
-[releases-shield]: https://img.shields.io/github/release/cgfm/hassio-addon-komodo-periphery.svg
-[releases]: https://github.com/cgfm/hassio-addon-komodo-periphery/releases
+[issue]: https://github.com/cgfm/Komodo-Periphery-Addon/issues
+[license-shield]: https://img.shields.io/github/license/cgfm/Komodo-Periphery-Addon.svg
+[releases-shield]: https://img.shields.io/github/release/cgfm/Komodo-Periphery-Addon.svg
+[releases]: https://github.com/cgfm/Komodo-Periphery-Addon/releases
