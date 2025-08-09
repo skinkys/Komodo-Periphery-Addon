@@ -198,7 +198,7 @@ SOFTWARE.
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[banner-image]: https://raw.githubusercontent.com/cgfm/hassio-addon-komodo-periphery/main/images/banner.png
+[banner-image]: https://raw.githubusercontent.com/cgfm/Komodo-Periphery-Addon/refs/heads/main/images/banner.png
 [commits-shield]: https://img.shields.io/github/commit-activity/y/cgfm/hassio-addon-komodo-periphery.svg
 [commits]: https://github.com/cgfm/hassio-addon-komodo-periphery/commits/main
 [contributors]: https://github.com/cgfm/hassio-addon-komodo-periphery/graphs/contributors
