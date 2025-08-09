@@ -1,0 +1,51 @@
+# Ignore build artifacts
+build/
+dist/
+*.tar.gz
+*.zip
+
+# Ignore temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore Docker context
+.docker/
+
+# Ignore test files (keep example configs)
+test-*
+!test-options.json
+
+# Ignore backup files
+*.bak
+*.backup
+
+# Ignore local development files
+.env
+.env.local
+local-*
+
+# Ignore cache directories
+.cache/
+cache/
