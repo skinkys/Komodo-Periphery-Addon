@@ -19,9 +19,15 @@ RUN apt-get update && apt-get install -y \
 
 # Install s6-overlay for service management (Home Assistant Add-on standard)
 ARG S6_OVERLAY_VERSION=3.1.6.2
+ARG TARGETARCH
 RUN wget -O /tmp/s6-overlay.tar.xz "https://github.com/just-containers/s6-overlay/releases/download/v${S6_OVERLAY_VERSION}/s6-overlay-noarch.tar.xz" \
     && tar -C / -Jxpf /tmp/s6-overlay.tar.xz \
-    && wget -O /tmp/s6-overlay-arch.tar.xz "https://github.com/just-containers/s6-overlay/releases/download/v${S6_OVERLAY_VERSION}/s6-overlay-x86_64.tar.xz" \
+    && case "${TARGETARCH}" in \
+         "amd64") S6_ARCH="x86_64" ;; \
+         "arm64") S6_ARCH="aarch64" ;; \
+         *) echo "Unsupported architecture: ${TARGETARCH}" && exit 1 ;; \
+       esac \
+    && wget -O /tmp/s6-overlay-arch.tar.xz "https://github.com/just-containers/s6-overlay/releases/download/v${S6_OVERLAY_VERSION}/s6-overlay-${S6_ARCH}.tar.xz" \
     && tar -C / -Jxpf /tmp/s6-overlay-arch.tar.xz \
     && rm -f /tmp/s6-overlay*.tar.xz
 
@@ -85,7 +91,7 @@ LABEL \
     io.hass.description="Komodo Periphery Server - Manages containers on remote servers" \
     io.hass.arch="aarch64|amd64" \
     io.hass.type="addon" \
-    io.hass.version="1.18.4" \
+    io.hass.version="1.18.5" \
     maintainer="Home Assistant Community Add-ons <hello@addons.community>" \
     org.opencontainers.image.title="Home Assistant Add-on: Komodo Periphery" \
     org.opencontainers.image.description="Komodo Periphery Server - Manages containers on remote servers" \
