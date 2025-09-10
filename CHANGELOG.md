@@ -5,6 +5,11 @@ All notable changes to this Home Assistant Add-on will be documented in this fil
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.18.5] - 2025-09-10
+
+### Fixed
+- Ensure architecture-specific s6-overlay binaries are used so the add-on runs on ARM64 systems.
+
 ## [1.18.4] - 2025-08-09
 
 ### Added

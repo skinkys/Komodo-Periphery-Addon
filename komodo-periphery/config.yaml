@@ -1,6 +1,8 @@
+# yamllint disable rule:line-length
+---
 name: "Komodo Periphery"
 description: "Komodo Periphery Server - Manages containers on remote servers"
-version: "1.18.4"
+version: "1.18.5"
 slug: "komodo-periphery"
 init: false
 arch:
